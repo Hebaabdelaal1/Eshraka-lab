@@ -39,12 +39,12 @@ const Contactus = () => {
         </a>
 
 
-        <div className="flex flex-row-reverse items-center bg-white p-6 rounded-2xl shadow hover:shadow-lg transition md:col-span-2">
+        {/* <div className="flex flex-row-reverse items-center bg-white p-6 rounded-2xl shadow hover:shadow-lg transition md:col-span-2">
           <FaMapMarkerAlt className="text-red-500 text-2xl ml-2" />
           <p className="text-gray-600">
             ميدان الشبان، أعلى صيدلية السلامة، سوهاج، مصر
           </p>
-        </div>
+        </div> */}
 
         <a
           href="https://www.facebook.com/search/top?q=%D8%A7%D8%B4%D8%B1%D8%A7%D9%82%D8%A9"

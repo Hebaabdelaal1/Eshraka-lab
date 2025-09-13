@@ -25,7 +25,7 @@ const Footer = () => {
     </div>
 
   
-    <div className="flex flex-col items-start px-10 ">
+    <div className="flex flex-col items-start px-25">
       <h3 className="text-lg font-semibold mb-1 border-b border-white pb-1 inline-block">
         تواصل معنا
       </h3>
