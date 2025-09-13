@@ -31,20 +31,21 @@ const Examples = () => {
           Our Work
         </h2>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
-          {images.map((src, index) => (
-            <div
-              key={index}
-              className="overflow-hidden rounded-xl shadow-lg hover:shadow-xl transition"
-            >
-              <img
-                src={src}
-                alt={`Work ${index + 1}`}
-                className="w-full h-64 object-cover hover:scale-105 transition-transform duration-300"
-              />
-            </div>
-          ))}
-        </div>
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+  {images.map((src, index) => (
+    <div
+      key={index}
+      className="overflow-hidden rounded-xl shadow-lg hover:shadow-xl transition bg-white flex items-center justify-center"
+    >
+      <img
+        src={src}
+        alt={`Work ${index + 1}`}
+        className="max-h-64 w-full object-contain hover:scale-105 transition-transform duration-300"
+      />
+    </div>
+  ))}
+</div>
+
       </div>
       </motion.div>
     </div>

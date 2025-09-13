@@ -95,19 +95,21 @@ const Navbar = () => {
 
 <div
 id="home"
-  className="w-full h-[90vh] bg-cover bg-center relative"
+className="w-full h-[60vh] md:h-[90vh] bg-cover bg-center relative"
   style={{ backgroundImage: "url('/imgs/header.jpeg')" }}
 >
 <div className="absolute inset-0 text-white px-4 flex flex-col items-end justify-center">
-  <h1 className="text-4xl md:text-7xl font-bold mb-4">
+<h1 className="text-4xl md:text-7xl font-bold mb-4">
   Eshraka Lab
-  </h1>
-<p className="md:text-xl leading-relaxed">
+</h1>
+
+<p className="text-base md:text-xl leading-relaxed">
   نمنحك ابتسامة مشرقة باستخدام أحدث تقنيات التركيبات السنية
 </p>
-<p className="md:text-xl leading-relaxed">
+<p className="text-base md:text-xl leading-relaxed font-semibold">
   مع دقة عالية وجودة تضمن لك راحة وثقة كل يوم
 </p>
+
 
 
 
