@@ -12,7 +12,7 @@ const Contactus = () => {
   transition={{ duration: 0.8, delay: .2 }}
 >
 <h2 className="text-5xl font-extrabold mb-12 text-sky-700 border-b-4 border-sky-300 pb-3 text-center w-fit mx-auto">
-  تواصل معنا
+  Contact Us
 </h2>
 
 

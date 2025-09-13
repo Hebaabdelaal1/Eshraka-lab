@@ -18,80 +18,69 @@ const Navbar = () => {
   viewport={{ once: true, amount: 0.2 }}  
   transition={{ duration: 0.8, delay: .2 }}
 >
-    <header className="bg-white text-sky-400 fixed w-full top-0 z-50 shadow-md py-2">
+  <header className="bg-white text-sky-400 fixed w-full top-0 z-50 shadow-md py-2">
+  <div className="flex items-center justify-between px-3 ">
+    {/* Desktop Menu */}
+    <nav className="hidden md:flex gap-10 font-semibold w-full">
+        {/* Logo */}
+      <img 
+        src="/imgs/Logo2.jpg" 
+        alt="Logo" 
+        className="h-23 w-60 mr-auto"
+      />
+      <a href="#home" className="flex items-center gap-2 hover:text-sky-600 transition">
+        <IoHome className="h-5 w-5" />
+        Home
+      </a>
+      <a href="#about" className="flex items-center gap-2 hover:text-sky-600 transition">
+        <FaInfoCircle className="h-5 w-5" />
+        About Us
+      </a>
+      <a href="#services" className="flex items-center gap-2 hover:text-sky-600 transition">
+        <MdDesignServices className="h-5 w-5" />
+        Services
+      </a>
+      <a href="#work" className="flex items-center gap-2 hover:text-sky-600 transition">
+        <MdDesignServices className="h-5 w-5" />
+        Our Work
+      </a>
+      <a href="#contact" className="flex items-center gap-2 hover:text-sky-600 transition">
+        <BiSolidContact className="h-5 w-5" />
+        Contact
+      </a>
+    </nav>
 
-      <div className="flex items-center justify-between px-3 ">
-      
-        {/* Desktop Menu */}
-        <nav className="hidden md:flex gap-10 font-semibold w-full">
-          <a href="#home" className="flex items-center gap-2 hover:text-sky-600 transition">
-            <IoHome className="h-5 w-5" />
-             الرئيسية 
-          </a>
-          <a href="#about" className="flex items-center gap-2 hover:text-sky-600 transition">
-            <FaInfoCircle className="h-5 w-5" />
-        من نحن
-          </a>
-          <a href="#services" className="flex items-center gap-2 hover:text-sky-600 transition">
-            <MdDesignServices className="h-5 w-5" /> 
-            خدماتنا
-          </a>
-          <a href="#contact" className="flex items-center gap-2 hover:text-sky-600 transition">
-            <BiSolidContact className="h-5 w-5" />
-            تواصل معنا
-          </a>
+    {/* Mobile Button */}
+    <button
+      onClick={() => setIsOpen(!isOpen)}
+      className="md:hidden focus:outline-none text-sky-400"
+    >
+      {isOpen ? <HiX className="h-7 w-7" /> : <HiMenu className="h-7 w-7" />}
+    </button>
+  </div>
 
-          {/* Logo */}
-          <img 
-            src="/imgs/Logo2.jpg" 
-            alt="Logo" 
-            className="h-25 w-80  ml-auto"
-          />
-        </nav>
+  {/* Mobile Menu */}
+  {isOpen && (
+    <nav className="md:hidden flex flex-col gap-6 bg-white px-6 py-6 text-sky-400 font-semibold">
+      <a href="#home" onClick={() => setIsOpen(false)} className="flex items-center gap-2 hover:text-sky-600 transition">
+        <IoHome className="h-5 w-5" /> Home
+      </a>
+      <a href="#about" onClick={() => setIsOpen(false)} className="flex items-center gap-2 hover:text-sky-600 transition">
+        <FaInfoCircle className="h-5 w-5" /> About Us
+      </a>
+      <a href="#services" onClick={() => setIsOpen(false)} className="flex items-center gap-2 hover:text-sky-600 transition">
+        <MdDesignServices className="h-5 w-5" /> Services
+      </a>
+      <a href="#work" onClick={() => setIsOpen(false)} className="flex items-center gap-2 hover:text-sky-600 transition">
+        <MdDesignServices className="h-5 w-5" /> Our Work
+      </a>
+      <a href="#contact" onClick={() => setIsOpen(false)} className="flex items-center gap-2 hover:text-sky-600 transition">
+        <BiSolidContact className="h-5 w-5" /> Contact
+      </a>
+    </nav>
+  )}
+</header>
 
-        {/* Mobile Button */}
-        <button
-          onClick={() => setIsOpen(!isOpen)}
-          className="md:hidden focus:outline-none text-sky-400"
-        >
-          {isOpen ? <HiX className="h-7 w-7" /> : <HiMenu className="h-7 w-7" />}
-        </button>
-      </div>
-
-      {/* Mobile Menu */}
-      {isOpen && (
-        <nav className="md:hidden flex flex-col gap-6 bg-white px-6 py-6 text-sky-400 font-semibold">
-          <a
-            href="#home"
-            className="flex items-center gap-2 hover:text-sky-600 transition"
-            onClick={() => setIsOpen(false)}
-          >
-            <HiHome className="h-5 w-5" />  الرئيسية
-          </a>
-          <a
-            href="#about"
-            className="flex items-center gap-2 hover:text-sky-600 transition"
-            onClick={() => setIsOpen(false)}
-          >
-            <FaInfoCircle className="h-5 w-5" /> من نحن
-          </a>
-          <a
-            href="#services"
-            className="flex items-center gap-2 hover:text-sky-600 transition"
-            onClick={() => setIsOpen(false)}
-          >
-            <MdDesignServices className="h-5 w-5" /> خدماتنا
-          </a>
-          <a
-            href="#contact"
-            className="flex items-center gap-2 hover:text-sky-600 transition"
-            onClick={() => setIsOpen(false)}
-          >
-            <BiSolidContact className="h-5 w-5" /> تواصل معنا
-          </a>
-        </nav>
-      )}
-    </header>
 
 <div
 id="home"

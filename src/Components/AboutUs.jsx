@@ -13,7 +13,7 @@ const AboutUs = () => {
   transition={{ duration: 0.8, delay: .2 }}
 >
     <h2 className="text-5xl font-extrabold mb-10 text-sky-700 border-b-4 border-sky-300 inline-block pb-3 ">
-    من نحن
+    About Us
   </h2>
 <section className="mb-16 text-right bg-gray-50 p-10 rounded-2xl shadow-md">
   <p className="mb-8 text-xl md:text-2xl leading-relaxed font-semibold text-gray-800">
