@@ -17,7 +17,7 @@ const AboutUs = () => {
   </h2>
 <section className="mb-16 text-right bg-gray-50 p-10 rounded-2xl shadow-md">
   <p className="mb-8 text-xl md:text-2xl leading-relaxed font-semibold text-gray-800">
-    في <span className="text-sky-700">معمل Eshraka Digital-Lab</span> نضع الابتسامة في قلب
+    في <span className="text-sky-700">معمل Eshraka Lab</span> نضع الابتسامة في قلب
     رسالتنا، ونسعى دائمًا لتقديم حلول متطورة في عالم التركيبات السنية لتلبية احتياجات
     أطباء الأسنان ومنح مرضاهم أفضل النتائج.
   </p>
