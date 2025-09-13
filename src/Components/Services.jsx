@@ -6,37 +6,37 @@ const Services = () => {
     {
       title: "3D Printer",
       desc: "Advanced 3D printer for high-precision dental restorations and ideal prototype printing.",
-      img: "/public/imgs/3d-printer.jpeg",
+      img: "/imgs/3d-printer.jpeg",
     },
     {
       title: "Curing Box",
       desc: "Device dedicated to curing and processing dental restorations for long-lasting strength and durability.",
-      img: "/public/imgs/curing-box.jpeg",
+      img: "/imgs/curing-box.jpeg",
     },
     {
       title: "Extra Oral Scanner",
       desc: "High-precision extraoral scanner to capture restoration details quickly and easily.",
-      img: "/public/imgs/extra-oral.jpeg",
+      img: "/imgs/extra-oral.jpeg",
     },
     {
       title: "Intraoral Scanner",
       desc: "State-of-the-art intraoral scanning technology for accurate digital impressions, eliminating traditional methods.",
-      img: "/public/imgs/scaner.jpeg",
+      img: "/imgs/scaner.jpeg",
     },
     {
       title: "Milling Machine",
       desc: "Advanced milling machine for zirconia fabrication with the highest quality, ensuring optimal clinical results.",
-      img: "/public/imgs/miling-machinejpeg.jpeg",
+      img: "/imgs/miling-machinejpeg.jpeg",
     },
     {
       title: "Sintering Furnace – Old",
       desc: "The old sintering furnace uses the same heating principle but with less precision and slower speed.",
-      img: "/public/imgs/sintering-fulance.jpg",
+      img: "/imgs/sintering-fulance.jpg",
     },
     {
       title: "Sintering Furnace – Modern",
       desc: "The modern sintering furnace ensures zirconia heating at precise temperatures for strong, durable dental restorations.",
-      img: "/public/imgs/sintering-furance2.jpg",
+      img: "/imgs/sintering-furance2.jpg",
     }
   ];
 
