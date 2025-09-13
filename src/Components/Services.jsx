@@ -6,27 +6,27 @@ const Services = () => {
     {
       title: "3D Printer",
       desc: "Advanced 3D printer for high-precision dental restorations and ideal prototype printing.",
-      img: "/imgs/3d-printer.jpeg",
+      img: "/imgs/3Dprinter.jpg",
     },
     {
       title: "Curing Box",
       desc: "Device dedicated to curing and processing dental restorations for long-lasting strength and durability.",
-      img: "/imgs/curing-box.jpeg",
+      img: "/imgs/Curingbox.jpg",
     },
     {
       title: "Extra Oral Scanner",
       desc: "High-precision extraoral scanner to capture restoration details quickly and easily.",
-      img: "/imgs/extra-oral.jpeg",
+      img: "/imgs/extraoralscan.jpg",
     },
     {
       title: "Intraoral Scanner",
       desc: "State-of-the-art intraoral scanning technology for accurate digital impressions, eliminating traditional methods.",
-      img: "/imgs/scaner.jpeg",
+      img: "/imgs/intrairalscaner.jpg",
     },
     {
       title: "Milling Machine",
       desc: "Advanced milling machine for zirconia fabrication with the highest quality, ensuring optimal clinical results.",
-      img: "/imgs/miling-machinejpeg.jpeg",
+      img: "/imgs/milling.jpg",
     },
     {
       title: "Sintering Furnace – Old",
